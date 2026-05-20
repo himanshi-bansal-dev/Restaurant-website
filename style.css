@@ -73,8 +73,11 @@
         }
         
         button:active {
-            
+            background-color: #A94A4A;
+            color: #fbf8f4;
+            font-size: 16px;
         }
+
         pre {
             background: transparent;
             font-size: 45px;
@@ -198,3 +201,28 @@
             color: white;
              text-align: center;
         }
+         
+
+  #footer {
+           background-color: black;
+            color: white;
+            display: flex; 
+            height: 150px;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+  }
+  
+  a {
+    background: transparent;
+  }
+
+  b {
+    background: transparent;
+    color: white;
+  }
+  
+  #Menu, #links, #address {
+    background: transparent;
+    font-size: 20px;
+  }
