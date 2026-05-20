@@ -207,7 +207,7 @@
            background-color: black;
             color: white;
             display: flex; 
-            height: 150px;
+            height: 240px;
             justify-content: center;
             align-items: center;
             flex-wrap: wrap;
@@ -215,6 +215,8 @@
   
   a {
     background: transparent;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
 
   b {
@@ -226,3 +228,71 @@
     background: transparent;
     font-size: 20px;
   }
+
+   #Menu, #links, #address [a] {
+    margin:15px;
+
+   }
+
+
+
+  /* CSS for about page */
+  .about {
+    background-image: url("about_page_hero_img.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100vw;
+  } 
+  .abt {
+    background: transparent;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    font-size: 20px;
+  }
+
+  #story {
+    color: #978F66;
+    font-size: 25px;
+  }
+  
+  .story {
+    color: #868363;
+    font-size: 16px;
+  }
+  
+  #belief {
+    height: 1100px;
+    display: flex;
+    width : 100vw;
+    flex-direction: column;
+    background-color: rgb(8, 90, 71) ;
+    justify-content: space-evenly ;
+    /* padding: 60 50; */
+  }
+  #innovation, #elegance, #sustainability, #hospitality {
+    background-color: #C9CAAC;
+    color: #978F66;
+    margin: 60 ;
+
+  }
+
+  h5 {
+    margin: 10px; 
+    padding: 10px;
+ }
+
+ .bold {
+    color: #AA2B1D;
+    font-size: 28px;
+ }
+ 
+ h3, h6 {
+    background: #fbf8f4;
+    text-align: center;
+ }
+ 
+ .copyright {
+    margin-bottom: 15px;
+ }
