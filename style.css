@@ -3,6 +3,7 @@
     background-color: #fbf8f4;
     margin : 0;
     padding: 0;
+    box-sizing: border-box;
 } 
 
 .hero{
@@ -34,7 +35,7 @@
     
     .content {
         text-align: center;
-        
+        margin-top: 150px;
         background: transparent;
         /* background-color: transparent; */
     }
@@ -48,6 +49,7 @@
          margin: 20px;
          padding: 20px;
          background: transparent;
+         
     }
 
     button {
@@ -61,8 +63,9 @@
         
         button:hover {
             background-color: #A94A4A;
-            font-size: 16px;
             color: #fbf8f4;
+            font-size: 16px;
+            
         }
         pre {
             background: transparent;
@@ -74,9 +77,16 @@
             background: transparent;
             font-size: 19px;
             color: #fbf8f4;
+            margin-left: 40px;
+            margin-right: 40px;
         }
 
         #menu {
             color :#A94A4A;
             font-size: 20px;
+        }
+        
+        #menu:hover {
+            color: #fbf8f4;
+            font-size: 25px;
         }
