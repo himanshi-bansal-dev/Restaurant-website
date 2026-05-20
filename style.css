@@ -7,11 +7,12 @@
 } 
 
 .hero{
-     background-image: url("restaurant_hero_img.jpg") ;
+     background-image: url("hero_image_restaurant_HD.avif") ;
      width :100vw;
      background-size: cover;
      background-repeat: no-repeat;
      height: 750px;
+     background-image: linear-gradient(rgba (0,0,0,0.3));
 }
 
 .navbar {
