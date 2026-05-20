@@ -1,8 +1,32 @@
 
 * {
     background-color: #fbf8f4;
+    margin : 0;
+    padding: 0;
 } 
 
-.navbar {
-    display: flex;
+.hero{
+     background-image: url("restaurant_hero_img.jpg") ;
+     width :100vw;
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 750px;
 }
+
+.navbar {
+    background: transparent;
+    margin: 10px;
+    padding: 20px;
+    }
+    a {
+    color : #eeeaea;
+    text-decoration: none;
+     background: transparent;
+     margin: 10px;
+    padding: 20px;
+    }
+
+    a:hover {
+        color: #A94A4A;
+        font-size: 20px;
+    }
