@@ -1,7 +1,7 @@
 
 * {
     background-color: #fbf8f4;
-    margin : 0;
+    margin : 30;
     padding: 0;
     box-sizing: border-box;
 } 
@@ -20,13 +20,14 @@
     margin: 10px;
     padding: 20px;
     }
+
     a {
     color : #eeeaea;
     text-decoration: none;
      background: transparent;
      margin: 10px;
     padding: 20px;
-    font-size: 15px;
+    font-size: 20px;
     }
 
     a:hover {
@@ -49,8 +50,7 @@
          align-items: center;
          margin: 20px;
          padding: 20px;
-         background: transparent;
-         
+         background: transparent;   
     }
 
     button {
@@ -58,25 +58,23 @@
           border-radius: 25px;
           margin: 10px;
           padding: 20px;
-          color: #A94A4A;
-         
+          color: #A94A4A;       
         }
         
         button:hover {
             background-color: #A94A4A;
             color: #fbf8f4;
-            font-size: 16px;
-            
+            font-size: 16px;     
         }
         pre {
             background: transparent;
-            font-size: 30px;
+            font-size: 45px;
             color: #fbf8f4;
         }
         
         p {
             background: transparent;
-            font-size: 19px;
+            font-size: 25px;
             color: #fbf8f4;
             margin-left: 40px;
             margin-right: 40px;
@@ -90,4 +88,104 @@
         #menu:hover {
             color: #fbf8f4;
             font-size: 25px;
+        }
+        
+        .dining-image {
+            background-image: url("dining.avif");
+            height: 500px;
+            width: auto;
+            margin: 35px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        .dining {
+              background: transparent;
+              display: flex;
+            justify-content: left;
+            align-items: flex-end; 
+            margin-top: 20px;
+            padding: 20px;        
+        }
+
+        .dining-text {
+            background: transparent;          
+            margin-top: 300px;       
+        }
+
+        #text {
+            font-size: 16px;
+        }
+        #heading {
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h3 {
+            color: #A94A4A;
+            text-align: center;
+        }
+
+        h5 {
+            font-size: 70px;
+            text-align: center;
+            font-weight: 100;
+        }
+        
+        .food {
+            width: auto;
+            height: 300px;
+        }
+        
+        h6 {
+            font-size: 29px;
+            color: #A94A4A;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        h5 {
+            color: #AA2B1D;
+            font-size: 70px;
+            font-weight: 350px;
+            margin: 5px;
+            padding: 5px;
+            background: transparent;
+
+        }
+
+        ul {
+        list-style-type: armenian;
+          font-family: Arial, Helvetica, sans-serif;
+          color: #C9CAAC;
+          font-size: 24px;
+          margin-left: 30px;
+          background: transparent;
+        }
+        
+        li {
+            background: transparent;
+        }
+
+        #Values {
+           
+            height: auto;
+            width: auto;
+            background-color: #868363 ;
+            border : 2px solid #978F66;
+            border-radius: 25px;
+            margin: 10px;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        .Values {
+            color: #50604a;
+             font-size: 26px;
+        }
+        
+        footer {
+            background-color: black;
+            color: white;
+             text-align: center;
         }
