@@ -296,8 +296,13 @@
     background: #fbf8f4;
     text-align: center;
  }
+
+    .cuisine {
+        text-align: left;
+    }
  
  .copyright {
     margin-bottom: 15px;
     background: transparent;
 
+ 
