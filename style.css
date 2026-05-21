@@ -265,16 +265,20 @@
   #belief {
     height: 1100px;
     display: flex;
-    width : 100vw;
+    width : 90vw;
     flex-direction: column;
-    background-color: rgb(8, 90, 71) ;
+    background-color: rgb(26, 76, 64) ;
     justify-content: space-evenly ;
+    margin-left: 4vw;
+     margin-bottom: 8vh;
+    border-radius: 15px;
     /* padding: 60 50; */
   }
   #innovation, #elegance, #sustainability, #hospitality {
     background-color: #C9CAAC;
     color: #978F66;
     margin: 60 ;
+    border-radius: 15px;
 
   }
 
@@ -295,4 +299,5 @@
  
  .copyright {
     margin-bottom: 15px;
- }
+    background: transparent;
+
