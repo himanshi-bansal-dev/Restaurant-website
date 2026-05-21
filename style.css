@@ -442,16 +442,22 @@
     margin-bottom: 3.5vh;
 }
 
+.a {
+    
+    display: block;
+}
+
 
 /* for mobile*/
  @media screen  and (max-width:768px) {
     * {
         margin: 0;
         padding: 0;
+        margin-left: 0.45vw;
     }
     
     .hero {
-        background-image: url(hero_image_restaurant_HD.avif);
+        background-image: url(hero_img_phone.avif);
         width: 100vw;
         height: auto;
         background-size: cover;
@@ -470,6 +476,7 @@
     
     #stefh {
         font-size: 2.3em;
+        color: #0e0f0e;
     }
     
     #button {
@@ -482,12 +489,62 @@
     }
 
     #intro {
-        color: rgb(32, 31, 31);
+        color: rgb(32, 9, 9);
     }
 
     .content {
         margin-top: 5vh;
     }
+
+    .dining-image{
+        height: fit-content;
+        width: auto;
+        
+    }
+    .dining {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 2vh;
+        padding: 0;
+    }
+
+    .dining-text {
+        margin-top: 8vh;
+        text-align: left;
+    }
+
+    #heading {
+        text-align: left;
+    }
+     
+    #text { 
+        font-size: 1em;
+
+    }
+
+    h5 {
+        font-size: 2em;
+    }
+    
+    h6, .cuisine{
+        font-size: 2.3em;
+    }
+
+    #footer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    a {
+          margin-top: 0.01vh;
+        margin-bottom: 0;
+        padding-top: 0.01vh;    
+    }
+
+
+
+    
  }
     
    
