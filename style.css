@@ -229,14 +229,14 @@
             position: relative;
             flex-wrap: wrap;
             bottom: 0; 
-            width: 100vw;   
+            width: 100%;   
             
   }
 
   .copyright {
     width: 100%;
     background-color: black;
-    padding-top: 4vh;
+    padding-top: 2vh;
     text-align: center;
   }
   
@@ -444,6 +444,7 @@
 .a {
     
     display: block;
+    margin: 0;
 }
 
 
