@@ -42,12 +42,12 @@
          text-decoration: #A94A4A underline ;
         
     }
-    
+/*     
     a:visited {
          color: #A94A4A;
         font-size: 20px;   
-         text-decoration: #A94A4A underline ;
-    }
+         text-decoration: #A94A4A underline ;} */
+    
     
     .content {
         text-align: center;
@@ -315,6 +315,19 @@
     h1 {
         color: rgb(89, 25, 25);
         font-weight: 100;    
+        text-align: center;
+    }
+    
+    #active {
+        color: #A94A4A;
+        text-decoration: #A94A4A underline;
+    }
+    
+    .menu-anchortags {
+        color: #978F66;
+    }
+    
+    .menu-anchor {
         text-align: center;
     }
     
