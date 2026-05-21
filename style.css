@@ -33,11 +33,20 @@
     a:hover {
         color: #A94A4A;
         font-size: 20px;
+        text-decoration: #A94A4A underline ;
     }
     
     a:active {
          color: #A94A4A;
         font-size: 20px;   
+         text-decoration: #A94A4A underline ;
+        
+    }
+    
+    a:visited {
+         color: #A94A4A;
+        font-size: 20px;   
+         text-decoration: #A94A4A underline ;
     }
     
     .content {
@@ -298,5 +307,17 @@
  .copyright {
     margin-bottom: 15px;
     background: transparent;
+ }
 
  
+    /* menu page styling */
+    
+    h1 {
+        color: rgb(89, 25, 25);
+        font-weight: 100;    
+        text-align: center;
+    }
+    
+    
+      
+    
