@@ -215,9 +215,9 @@
     }
 
         footer {
-            background-color: black;
             color: white;
              text-align: center;
+             background: transparent;
         }
          
 
@@ -238,6 +238,7 @@
     width: 100%;
     background-color: black;
     padding-top: 4vh;
+    text-align: center;
   }
   
   a {
@@ -441,6 +442,53 @@
     margin-bottom: 3.5vh;
 }
 
+
+/* for mobile*/
+ @media screen  and (max-width:768px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .hero {
+        background-image: url(hero_image_restaurant_HD.avif);
+        width: 100vw;
+        height: auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .navbar {
+        background: transparent;
+        margin: 0.3vh;
+    }
+    
+    a {
+        display: block;
+        margin: 0.3vh;
+    }
+    
+    #stefh {
+        font-size: 2.3em;
+    }
+    
+    #button {
+        font-size: 1.5em;          
+    }
+
+    button {
+       margin: 0.01vh 0.01vw;
+        padding: 0.01vh 0.01vw; 
+    }
+
+    #intro {
+        color: rgb(32, 31, 31);
+    }
+
+    .content {
+        margin-top: 5vh;
+    }
+ }
     
    
     
