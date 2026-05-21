@@ -1,12 +1,11 @@
 
 * {
+    overflow-x: hidden;
     background-color: #fbf8f4;
-    margin-top: 10;
-    margin-right: 10;
-    margin-left: 10;
-    margin-bottom: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 } 
 
 .hero{
@@ -453,7 +452,7 @@
     * {
         margin: 0;
         padding: 0;
-        margin-left: 0.45vw;
+        max-width: 100%;
     }
     
     .hero {
@@ -528,7 +527,7 @@
     }
     
     h6, .cuisine{
-        font-size: 2.3em;
+        font-size: 2em;
     }
 
     #footer {
@@ -541,6 +540,73 @@
         margin-bottom: 0;
         padding-top: 0.01vh;    
     }
+
+    #address {
+        width: 100%;
+    }
+    
+    #button {
+        text-align: center;
+    }
+
+    #menu {
+        margin-top: 0.5vh;
+        margin-bottom: 0.5vh;
+        padding-top: 0.2vh;
+        padding-bottom: 0.2vh;
+    }
+    
+    
+    .about {
+        height: auto;
+    }
+
+    #abt {
+        font-size: 1.8em;
+    }
+
+    
+    #belief {
+        height: fit-content;
+        width:90%;
+        margin-top: 2vh;
+        margin-right: 0.1vw;
+
+    }
+
+    #innovation, #elegance, #sustainability, #hospitality {
+        margin-bottom: 3vh;
+        margin-top: 3vh;
+        padding: 0;
+        margin-left: 0.01vw;
+        margin-right: 0.01vw;
+    }
+
+    #val {
+        margin-top: 2.5vh;
+        margin-bottom: 2.5vh;
+    }
+
+    .bold {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 300;
+    }
+
+    .inv {
+        text-align: left;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    
+    .contact {
+        width:90%;
+        margin:3vh 5vw;
+        margin-right: 5vw;
+    }
+
+
 
 
 
