@@ -254,7 +254,8 @@
   #Menu, #links, #address {
     background: transparent;
     font-size: 20px;
-    margin-top: 4vh;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
   }
 
 
